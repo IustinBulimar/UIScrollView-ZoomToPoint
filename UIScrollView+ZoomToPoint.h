@@ -13,6 +13,11 @@
           withScale:(CGFloat)scale
            animated:(BOOL)animated;
 
+/*!
+ Center the view on the screen. Call this from -scrollViewDidZoom
+ 
+ @param view The view to be centered
+ */
 - (void)centerView:(UIView *)view;
 
 @end
